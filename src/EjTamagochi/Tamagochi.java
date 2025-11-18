@@ -3,13 +3,13 @@ package EjTamagochi;
 public class Tamagochi {
     private String Nombre="Boby";
     private int Hambre;
-    private String Estadofelicidad;
-    private String Peso;
+    private int Estadofelicidad;
+    private int Peso;
 
     Tamagochi(int Hambre, String Estadofelicidad, String Peso){
-        this.Hambre=hambreTamagochi(5);
-        this.Estadofelicidad=estadoTamagochi("Normal");
-        this.Peso=pesoTamagochi("Normal");
+        this.Hambre=5;
+        this.Estadofelicidad=5;
+        this.Peso=5;
     }
     public String estadoTamagochi(String Estadofelicidad){
         if (Hambre<5){
