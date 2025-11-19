@@ -12,7 +12,6 @@ public class ClaseAlumno {
     }
     public String getNombre(){
         return nombre;
-
     }
 
     public double getNota() {
